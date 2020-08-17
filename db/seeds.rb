@@ -17,6 +17,7 @@ tag5 = Tag.create(name: "photography", likes: "5")
 tag6 = Tag.create(name: "music", likes: "5")
 tag7 = Tag.create(name: "poetry", likes: "5")
 p "seeded tags"
+#TODO add art
 art1 = Post.create(title: "", image_url:"", user_id: User.all.sample.id, tag_id: Tag.all.sample.id)
 art2 = Post.create(title: "", image_url:"", user_id: User.all.sample.id, tag_id: Tag.all.sample.id)
 art3 = Post.create(title: "", image_url:"", user_id: User.all.sample.id, tag_id: Tag.all.sample.id)
